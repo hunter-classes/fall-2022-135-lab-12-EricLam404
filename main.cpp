@@ -17,10 +17,7 @@ std::string toString(std::vector<int> vector){
 
 int main(){
     std::cout << "\nTask A\n";
-    std::vector<int> vector;     
-    vector.push_back(10); 
-    vector.push_back(20); 
-    vector.push_back(30);
+    std::vector<int> vector = makeVector(5);
     std::cout << toString(vector) << "\n";
 
     std::cout << "\nTask B\n";
